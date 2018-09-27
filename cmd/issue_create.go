@@ -17,7 +17,6 @@ import (
 
 var issueCreateCmd = &cobra.Command{
 	Use:   "create [remote]",
-	Aliases: []string{"new"},
 	Short: "Open an issue on GitLab",
 	Long:  ``,
 	Args:  cobra.MaximumNArgs(1),
